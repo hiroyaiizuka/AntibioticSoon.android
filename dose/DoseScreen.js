@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#DDD',
   },
   calbutton: {
-    color: 'blue',
+    color: '#6600ff',
     padding: 11,
     fontWeight: 'bold', 
     textAlign: 'center',  

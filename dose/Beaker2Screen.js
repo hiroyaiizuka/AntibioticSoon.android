@@ -62,13 +62,17 @@ class Beaker2Screen extends React.Component{
               <Rows data={state.tableData} flexArr={[1.05,1,1,1]} textStyle={styles.text}/>
             </Table>
         <Text style = {{fontWeight: "bold", marginTop: 30}}>※  オーグメンチン、サワシリン併用療法について</Text>
-        <Text style = {{marginTop: 10}}>　日本で発売されているオーグメンチンは、サワシリンの{"\n"}    含有量が少ないため、併用が望ましい。(オグサワ療法) </Text>
-        <Text style = {{marginTop: 15}}>　CCr＞30 {"\n"}　オーグメンチン 375mg + サワシリン 250mg  1日3回 </Text>
-        <Text style = {{marginTop: 7}}>　CCr 10-30  {"\n"}　オーグメンチン 375mg + サワシリン 250mg  1日2回 </Text>
-        <Text style = {{marginTop: 7}}>   CCr＜10  {"\n"}　オーグメンチン 375mg + サワシリン 250mg  1日1回 </Text>
+        <Text style = {{marginTop: 10, fontSize:12}}>　日本で発売されているオーグメンチンは、サワシリン</Text>
+        <Text style = {{marginTop: 2, fontSize:12}}>　含有量が少ないため、併用が望ましい。(オグサワ療法) </Text>
+        <Text style = {{marginTop: 15, fontSize:12}}>　CCr＞30 {"\n"}　オーグメンチン 375mg + サワシリン 250mg  1日3回 </Text>
+        <Text style = {{marginTop: 7, fontSize:12}}>　CCr 10-30  {"\n"}　オーグメンチン 375mg + サワシリン 250mg  1日2回 </Text>
+        <Text style = {{marginTop: 7, fontSize:12}}>    CCr＜10  {"\n"}　オーグメンチン 375mg + サワシリン 250mg  1日1回 </Text>
         
         <Text style = {{fontWeight: "bold", marginTop: 28}}>※  第3世代セフェム系経口薬について</Text>
-        <Text style = {{marginTop: 10, marginBottom: 40}}>　バイオアベイラビリティ16%であり、ほとんど便中へ{"\n"}　排泄されるため、原則として使用しない。{"\n"}{"\n"}　日本の薬剤耐性対策アクションプランでは{"\n"}　大幅な処方量減が目標になっている</Text>
+        <Text style = {{marginTop: 10, fontSize:12}}>　バイオアベイラビリティ16%であり、ほとんど便中へ</Text>
+        <Text style = {{marginTop: 2, fontSize:12}}>    排泄されるため、原則として使用しない。　</Text>
+        <Text style = {{marginTop: 2, fontSize:12}}>    日本の薬剤耐性対策アクションプランでは</Text>
+        <Text style = {{marginTop: 2, fontSize:12, marginBottom: 40}}>    大幅な処方量減が目標になっている　</Text>  
           </ScrollView>
         )
       
