@@ -65,10 +65,10 @@ class BeakerScreen extends React.Component{
         return(
             <ScrollView style={styles.container}>
             <Table borderStyle={{borderWidth: 2, borderColor: '#c8e1ff'}}>
-              <Row data={state.tableHead} flexArr={[1,1.38,1,1]} style={styles.head} textStyle={styles.text}/>
-              <Rows data={state.tableData} flexArr={[1,1.38,1,1]} textStyle={styles.text}/>
+              <Row data={state.tableHead} flexArr={[1.12,1.35,1.05,1.05]} style={styles.head} textStyle={styles.text}/>
+              <Rows data={state.tableData} flexArr={[1.12,1.35,1.05,1.05]} textStyle={styles.text}/>
             </Table>
-            <Text style={{fontSize: 12, paddingBottom: 4,}}>{"\n"} ※ 初期投与量なので、TDMを行い、投与量を調節すること </Text>
+            <Text style={{fontSize: 12, paddingBottom: 10,}}>{"\n"} ※ 初期投与量なので、TDMを行い、投与量を調節すること </Text>
           </ScrollView>
         )
       
